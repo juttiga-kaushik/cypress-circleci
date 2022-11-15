@@ -4,11 +4,11 @@ describe('Fetching multiple Data from Multiple file in Fixture file->CreateOrder
     
     //Use the cy.fixture() method to pull data from fixture file
 before(function () {
-  cy.fixture('MultiUserLogin').then(function (data) {
+  cy.fixture('multiUserLogin').then(function (data) {
     console.log(data)
     this.data = data.Login;
   })
-  cy.fixture('CreateOrder').then(function(user){
+  cy.fixture('createOrder').then(function(user){
       this.user=user
   })
 })
