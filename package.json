@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "cypress": "^11.0.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-xpath": "^2.0.1"
+  },
+  "name": "cypresstraining",
+  "version": "1.0.0",
+  "description": "cypress training",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "all_tests": "npx cypress run --headed --browser chrome --spec 'cypress/e2e/UI_Test/**/*.js'"
+  },
+  "author": "kaushik juttiga",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress-localstorage-commands": "^2.2.1"
+  }
+}

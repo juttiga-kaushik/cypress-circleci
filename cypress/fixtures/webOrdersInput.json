@@ -1,0 +1,14 @@
+{
+    "URL": "http://secure.smartbearsoftware.com/samples/TestComplete11/WebOrders/Login.aspx",
+    "formData": {
+        "Quantity":"5",
+        "Customer": "Abhishek",
+        "Street":"BTM",
+        "City":"Bengaluru",
+        "Zip":"560076",
+        "Card":"Visa",
+        "CardNum":"123456789",
+        "Expire":"12/22"
+    },
+    "expectedData": ["Quantity must be greater than zero.", "Field 'Customer name' cannot be empty.", "Field 'Street' cannot be empty.", "Field 'City' cannot be empty.", "Field 'Zip' cannot be empty.", "Select a card type.", "Field 'Card Nr' cannot be empty.", "Field 'Expire date' cannot be empty."]
+}
